@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Hala Arar</title>
+  <meta name="description" content="View Hala Arar's data science projects including SOORENA, NYPD Arrest Tracker, and machine learning models.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">Hala Arar</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="projects.html" class="nav-link active">Projects</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="resume.html" class="nav-link">Resume</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="page-main">
+    <div class="container">
+      <h1 class="page-title">Projects</h1>
+      <p class="page-subtitle">A selection of data science projects showcasing my work in machine learning, visualization, and analysis.</p>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3 class="project-title">SOORENA</h3>
+          <p class="project-description">PubMedBERT model detecting autoregulatory mechanisms in proteins for biological network analysis.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">PyTorch</span>
+            <span class="tag">Hugging Face</span>
+            <span class="tag">BERT</span>
+          </div>
+          <a href="https://github.com/halaarar/soorena" target="_blank" rel="noopener noreferrer" class="btn btn-outline">View on GitHub</a>
+        </article>
+
+        <article class="project-card">
+          <h3 class="project-title">NYPD Arrest Tracker</h3>
+          <p class="project-description">Interactive Shiny dashboard visualizing arrest patterns across NYC boroughs with temporal analysis.</p>
+          <div class="project-tags">
+            <span class="tag">R</span>
+            <span class="tag">Shiny</span>
+            <span class="tag">ggplot2</span>
+            <span class="tag">Data Viz</span>
+          </div>
+          <a href="https://github.com/halaarar/nypd-tracker" target="_blank" rel="noopener noreferrer" class="btn btn-outline">View on GitHub</a>
+        </article>
+
+        <article class="project-card">
+          <h3 class="project-title">Bank Marketing Prediction</h3>
+          <p class="project-description">ML classification model predicting customer conversion rates for targeted marketing campaigns.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Scikit-learn</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">ML</span>
+          </div>
+          <a href="https://github.com/halaarar/bank-marketing" target="_blank" rel="noopener noreferrer" class="btn btn-outline">View on GitHub</a>
+        </article>
+
+        <article class="project-card">
+          <h3 class="project-title">Health Science Calculator</h3>
+          <p class="project-description">Python package for biomedical metric computation and statistical analysis in health sciences.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">NumPy</span>
+            <span class="tag">Statistics</span>
+            <span class="tag">Healthcare</span>
+          </div>
+          <a href="https://github.com/halaarar/health-calc" target="_blank" rel="noopener noreferrer" class="btn btn-outline">View on GitHub</a>
+        </article>
+      </div>
+
+      <section class="publications">
+        <h2 class="section-title">Publications & Presentations</h2>
+        <div class="publication-card">
+          <h3 class="publication-title">SOORENA: Self-Loop Containing or Autoregulatory Nodes in Biological Network Analysis</h3>
+          <p class="publication-venue">HUPO 2025 - Human Proteome Organization Conference</p>
+          <p class="publication-description">Poster presentation on using PubMedBERT for automated detection of autoregulatory protein mechanisms in biological networks.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-links">
+        <a href="https://github.com/halaarar" target="_blank" rel="noopener noreferrer" class="footer-link">
+          <span class="icon">GitHub</span>
+        </a>
+        <a href="https://linkedin.com/in/halaarar" target="_blank" rel="noopener noreferrer" class="footer-link">
+          <span class="icon">LinkedIn</span>
+        </a>
+        <a href="mailto:hala.arar@example.com" class="footer-link">
+          <span class="icon">Email</span>
+        </a>
+      </div>
+      <p class="footer-text">© 2025 Hala Arar — Designed with care</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
